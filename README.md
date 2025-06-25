@@ -22,7 +22,12 @@ A command-line tool to clean messy CSV files by removing null values and duplica
 - `cleaner.py` – main script  
 - `dirty_students.csv` – sample input  
 - `cleaned_dirty_students.csv` – sample output  
-- `README.md` – documentation  
+- `README.md` – documentation
+
+
+## 🏆 Author
+
+Built  by Sree Charan
 
 ## 🚀 How to Run
 
@@ -31,17 +36,15 @@ A command-line tool to clean messy CSV files by removing null values and duplica
 2. Run the script:
 ```bash
 python cleaner.py
-
+```
 3. Select your cleaning operation:
-
+```bash
 1. Remove Duplicates  
 2. Remove Nulls  
 3. Both  
 4. View File  
 5. Exit
-
+```
 4. The cleaned file will be saved as cleaned_<filename>.csv
 
-##🏆 Author
 
-Built  by Sree Charan
